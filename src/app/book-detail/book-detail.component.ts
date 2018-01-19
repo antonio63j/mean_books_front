@@ -18,8 +18,9 @@ export class BookDetailComponent implements OnInit {
     this.getBookDetail(this.route.snapshot.params['id']);
   }
 
+  
   getBookDetail(id) {
-    this.http.get('/book/' + id).subscribe(data => {
+    this.http.get('http://localhost:3000/book/' + id).subscribe(data => {
       this.book = data;
     });
   }
