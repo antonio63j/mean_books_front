@@ -1,0 +1,14 @@
+{
+    "/book-create": {
+      "target":  {
+          "host": "localhost",
+          "protocol": "http:",
+           "port": 3000},
+
+      "secure": false,
+      "logLevel":"debug",
+      "pathRewrite": {
+        "^/book-create": ""
+      }
+    }
+  }

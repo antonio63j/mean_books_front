@@ -1,1 +1,4 @@
-<app-book></app-book>
+
+<app-book #consultalibros [borrarlibros]="borrarlibros"></app-book>
+
+<app-book-create #borrarlibros [consultalibros]="consultalibros"></app-book-create>    

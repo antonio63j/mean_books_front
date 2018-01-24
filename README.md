@@ -3,18 +3,18 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
 
 Es proyecto front para la gestion de libros en una base de datos mongodb. La base de datos se llama mean-angular5 y la coleccion books
-La app esta preparada para CRUD, create, read, update y delete.
+La app de back, esta preparada para CRUD, create, read, update y delete.
 
-Arquitectura:
+## Arquitectura:
 Vamos a crear una carpeta books, donde vamos a crear books.component.ts y html. 
 En books.componet.ts utilizaremos los servicios de books.services.ts
 
 Y en services/books.services.ts, definimos los servicios
-####Objetivos
+Objetivos
 - En fase de separación de la aplicación en dos, una front y otra back.
 - Corregir la actualización de libro
 
-##Elementos de Angular utilizados:
+## Elementos de Angular utilizados:
 - Observable
 - HttpClient
 
